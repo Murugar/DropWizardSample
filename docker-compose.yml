@@ -1,0 +1,11 @@
+version: "3"
+services:
+  
+  dropwizard1:
+    build: .
+    image: dropwizard1:1.0-SNAPSHOT
+    ports:
+      - "8080:8080"
+
+volumes:
+  dropwizard1-volume:
